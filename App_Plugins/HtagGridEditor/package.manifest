@@ -1,0 +1,19 @@
+﻿{
+  "gridEditors": [
+    {
+      "name": "HTML heading",
+      "alias": "htmlHeading",
+      "view": "/app_plugins/HtagGridEditor/editor.html",
+      "render": "/app_plugins/HtagGridEditor/htag-render.cshtml",
+      "icon": "icon-code"
+    }
+  ],
+  "javascript": [
+    "/app_plugins/HtagGridEditor/editor.controller.js",
+    "/app_plugins/HtagGridEditor/solid.js",
+    "/app_plugins/HtagGridEditor/fontawesome.js"
+  ],
+  "css": [
+    "/app_plugins/HtagGridEditor/htagStyles.css"
+  ]
+}
