@@ -1,11 +1,11 @@
 ﻿{
   "gridEditors": [
     {
-      "name": "HTML heading",
+      "name": "Headline (H-tag)",
       "alias": "htmlHeading",
       "view": "/app_plugins/HtagGridEditor/editor.html",
       "render": "/app_plugins/HtagGridEditor/htag-render.cshtml",
-      "icon": "icon-code"
+      "icon": "icon-coin"
     }
   ],
   "javascript": [
