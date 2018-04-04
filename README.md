@@ -5,4 +5,5 @@ This editor is built for the Umbraco [Grid Layout](https://our.umbraco.org/docum
 ![H-tag editor in action](https://i.imgur.com/ha06iy6.gif)
 
 ## How to use
-Drop the files in the App_Plugins folder, located in the root of your Umbraco installation.
+Download and install the package from our.umbraco.org or<br>
+drop the files in the App_Plugins folder, located in the root of your Umbraco installation.
