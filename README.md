@@ -1,4 +1,4 @@
-# umbGridHtagEditor
+# ourHtagEditor
 H-tag editor is a simple grid editor that lets the editor pick a desired heading size (H1 down to H6) and the text-alignment (left, center or right).<br>
 This editor is built for the Umbraco [Grid Layout](https://our.umbraco.org/documentation/getting-started/backoffice/property-editors/built-in-property-editors/grid-layout).
 
