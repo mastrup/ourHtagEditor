@@ -1,0 +1,12 @@
+{
+	"name": "HtagEditor",
+	"description": "",
+	"directory": "HtagGridEditor",
+	"version": "1.0.1",
+	"url": "https://github.com/mastrup/ourHtagEditor",
+	"author": "Søre Mastrup",
+	"authorUrl": "https://github.com/mastrup",
+	"license": "MIT",
+	"licenseUrl": "http://opensource.org/licenses/MIT",
+	"readme": "H-tag editor is a simple grid editor that lets the editor pick a desired heading size (H1 down to H6) and the text-alignment (left, center or right)."
+}
