@@ -3,17 +3,16 @@
     {
       "name": "Headline (H-tag)",
       "alias": "htmlHeading",
-      "view": "/app_plugins/HtagGridEditor/editor.html",
-      "render": "/app_plugins/HtagGridEditor/htag-render.cshtml",
+      "view": "~/App_Plugins/HtagGridEditor/editor.html",
+      "render": "~/App_Plugins/HtagGridEditor/htag-render.cshtml",
       "icon": "icon-coin"
     }
   ],
   "javascript": [
-    "/app_plugins/HtagGridEditor/editor.controller.js",
-    "/app_plugins/HtagGridEditor/solid.js",
-    "/app_plugins/HtagGridEditor/fontawesome.js"
+    "~/App_Plugins/HtagGridEditor/editor.controller.js"
   ],
   "css": [
-    "/app_plugins/HtagGridEditor/htagStyles.css"
+    "~/App_Plugins/HtagGridEditor/css/htag-icons.css"
+    "~/App_Plugins/HtagGridEditor/css/htag-styles.css"
   ]
 }

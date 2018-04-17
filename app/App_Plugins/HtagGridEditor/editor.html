@@ -1,4 +1,4 @@
-﻿<div ng-controller="htag.grideditorcontroller">
+﻿<div ng-controller="Our.Umbraco.HtagEditor.Controller">
     <div class="htag">
         <textarea rows="1" class="textstring input-block-level text-{{control.textAlign}} {{control.hTag}}" localize="placeholder" placeholder="WriteHere" ng-model="control.value"></textarea>
 
@@ -18,39 +18,39 @@
         <ul>
             <li><localize key="general_Size">Size:</localize> </li>
             <li ng-click="setSize('h1')" ng-class="{'active': control.hTag=='h1'}">
-                <span class="fa-layers fa-fw">
-                    <i class="fas fa-heading fa-lg" data-fa-transform="shrink-2 left-2"></i>
-                    <span class="fa-layers-text" data-fa-transform="shrink-2 right-10 up-1" style="font-weight:900">1</span>
+                <span class="icon-wrap">
+                    <i class="icon-htag-heading"></i>
+                    <span class="icon-layers-text">1</span>
                 </span>
             </li>
             <li ng-click="setSize('h2')" ng-class="{'active': control.hTag=='h2'}">
-                <span class="fa-layers fa-fw">
-                    <i class="fas fa-heading fa-lg" data-fa-transform="shrink-2 left-2"></i>
-                    <span class="fa-layers-text" data-fa-transform="shrink-2 right-10 up-1" style="font-weight:900">2</span>
+                <span class="icon-wrap">
+                    <i class="icon-htag-heading"></i>
+                    <span class="icon-layers-text">2</span>
                 </span>
             </li>
             <li ng-click="setSize('h3')" ng-class="{'active': control.hTag=='h3'}">
-                <span class="fa-layers fa-fw">
-                    <i class="fas fa-heading fa-lg" data-fa-transform="shrink-2 left-2"></i>
-                    <span class="fa-layers-text" data-fa-transform="shrink-2 right-10 up-1" style="font-weight:900">3</span>
+                <span class="icon-wrap">
+                    <i class="icon-htag-heading"></i>
+                    <span class="icon-layers-text">3</span>
                 </span>
             </li>
             <li ng-click="setSize('h4')" ng-class="{'active': control.hTag=='h4'}">
-                <span class="fa-layers fa-fw">
-                    <i class="fas fa-heading fa-lg" data-fa-transform="shrink-2 left-2"></i>
-                    <span class="fa-layers-text" data-fa-transform="shrink-2 right-10 up-1" style="font-weight:900">4</span>
+                <span class="icon-wrap">
+                    <i class="icon-htag-heading"></i>
+                    <span class="icon-layers-text">4</span>
                 </span>
             </li>
             <li ng-click="setSize('h5')" ng-class="{'active': control.hTag=='h5'}">
-                <span class="fa-layers fa-fw">
-                    <i class="fas fa-heading fa-lg" data-fa-transform="shrink-2 left-2"></i>
-                    <span class="fa-layers-text" data-fa-transform="shrink-2 right-10 up-1" style="font-weight:900">5</span>
+                <span class="icon-wrap">
+                    <i class="icon-htag-heading"></i>
+                    <span class="icon-layers-text">5</span>
                 </span>
             </li>
             <li ng-click="setSize('h6')" ng-class="{'active': control.hTag=='h6'}">
-                <span class="fa-layers fa-fw">
-                    <i class="fas fa-heading fa-lg" data-fa-transform="shrink-2 left-2"></i>
-                    <span class="fa-layers-text" data-fa-transform="shrink-2 right-10 up-1" style="font-weight:900">6</span>
+                <span class="icon-wrap">
+                    <i class="icon-htag-heading"></i>
+                    <span class="icon-layers-text">6</span>
                 </span>
             </li>
         </ul>

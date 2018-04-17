@@ -1,4 +1,4 @@
-﻿angular.module("umbraco").controller("htag.grideditorcontroller", function ($scope) {
+﻿angular.module("umbraco").controller("Our.Umbraco.HtagEditor.Controller", function ($scope) {
     
 
     if (!$scope.control.textAlign)
