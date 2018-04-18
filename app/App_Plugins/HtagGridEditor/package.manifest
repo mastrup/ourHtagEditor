@@ -5,7 +5,7 @@
       "alias": "htmlHeading",
       "view": "~/App_Plugins/HtagGridEditor/editor.html",
       "render": "~/App_Plugins/HtagGridEditor/htag-render.cshtml",
-      "icon": "icon-coin"
+      "icon": "icon-hte-heading"
     }
   ],
   "javascript": [
