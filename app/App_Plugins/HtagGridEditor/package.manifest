@@ -12,7 +12,7 @@
     "~/App_Plugins/HtagGridEditor/editor.controller.js"
   ],
   "css": [
-    "~/App_Plugins/HtagGridEditor/css/htag-icons.css"
+    "~/App_Plugins/HtagGridEditor/css/htag-icons.css",
     "~/App_Plugins/HtagGridEditor/css/htag-styles.css"
   ]
 }
