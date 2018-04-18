@@ -5,7 +5,7 @@
     <link>https://mastrup.it</link>
   </creator>
   <area alias="general">
-    <key alias="position">Alignment:</key>
-    <key alias="size">Heading:</key>
+    <key alias="position">Alignment</key>
+    <key alias="size">Heading</key>
   </area>
 </language>
