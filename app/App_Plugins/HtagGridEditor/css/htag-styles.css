@@ -5,6 +5,7 @@
 }
 
 .htag .hte-toolbar-wrapper > span {
+    color: #888;
     cursor: default;
     user-select: none;
 }
