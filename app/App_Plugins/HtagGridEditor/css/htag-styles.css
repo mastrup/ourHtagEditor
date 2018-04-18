@@ -4,6 +4,11 @@
     margin: 0 4px 4px 4px;
 }
 
+.htag .hte-toolbar-wrapper > span {
+    cursor: default;
+    user-select: none;
+}
+
 .umb-control.-active .htag .hte-toolbar-wrapper {
     display: block;
 }
