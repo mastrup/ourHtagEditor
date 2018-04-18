@@ -1,34 +1,39 @@
-﻿.htag ul {
+﻿.htag .hte-toolbar-wrapper {
     display: none;
-    clear: both;
-}
-
-.umb-control.-active .htag ul {
-    display: block;
-    margin: 0;
-    list-style-type: none;
-}
-
-.htag li {
     float: left;
-    margin-right: 10px;
-    color: #dedede;
+    margin: 0 4px 0 4px;
+}
+
+.umb-control.-active .htag .hte-toolbar-wrapper {
+    display: block;
+}
+
+.htag .hte-toolbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.htag .hte-toolbar li {
+    float: left;
+    background: #efefef;
+    color: #b4b4b4;
     cursor: pointer;
-    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.htag li:first-child {
-    cursor: default;
-    user-select: none;
-}
-
-.htag li.active {
+.htag .hte-toolbar li.active {
     color: #303033;
+    background: #d7d7d7;
 }
 
 .htag textarea {
     font-weight: bold;
-    height: 61px;
+    height: 60px;
     line-height: 45px;
 }
 
@@ -37,7 +42,7 @@
 }
 
 .htag .icon-layers-text {
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .htag textarea.text-left {
