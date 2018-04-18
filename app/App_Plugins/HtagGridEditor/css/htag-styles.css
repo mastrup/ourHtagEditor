@@ -1,7 +1,7 @@
 ﻿.htag .hte-toolbar-wrapper {
     display: none;
     float: left;
-    margin: 0 4px 0 4px;
+    margin: 0 4px 4px 4px;
 }
 
 .umb-control.-active .htag .hte-toolbar-wrapper {
