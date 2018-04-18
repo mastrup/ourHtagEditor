@@ -32,6 +32,14 @@
     line-height: 45px;
 }
 
+.htag .icon-wrap {
+    display: flex;
+}
+
+.htag .icon-layers-text {
+    font-weight: 700;
+}
+
 .htag textarea.text-left {
     text-align: left;
 }
