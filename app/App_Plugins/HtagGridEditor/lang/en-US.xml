@@ -5,8 +5,7 @@
     <link>https://mastrup.it</link>
   </creator>
   <area alias="general">
-    <key alias="WriteHere">Write here...</key>
-    <key alias="Position">Alignment:</key>
-    <key alias="Size">Heading:</key>
+    <key alias="position">Alignment:</key>
+    <key alias="size">Heading:</key>
   </area>
 </language>
