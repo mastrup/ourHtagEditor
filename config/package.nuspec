@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Our.Umbraco.HtagEditor</id>
+    <version>1.0.1</version>
+    <title>HtagEditor</title>
+    <authors>Søren Mastrup</authors>
+    <owners>Søren Mastrup</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/mastrup/ourHtagEditor</projectUrl>
+    <iconUrl>https://github.com/mastrup/ourHtagEditor/master/assets/img/htag-icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>H-tag editor is a simple grid editor that lets the editor pick a desired heading size (H1 down to H6) and the text-alignment (left, center or right).</description>
+    <tags>Umbraco, grid, editor</tags>
+    <releaseNotes>
+v1.0.1
+New: Nuget package build
+Fix: 
+
+v1.0.0
+Initial release
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="..\app\App_Plugins\HtagGridEditor\**\*.*" target="content\App_Plugins\HtagGridEditor" />
+  </files>
+</package>

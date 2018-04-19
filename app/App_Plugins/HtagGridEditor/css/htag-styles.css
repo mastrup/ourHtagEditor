@@ -1,0 +1,85 @@
+﻿.htag .hte-toolbar-wrapper {
+    display: none;
+    float: left;
+    margin: 0 4px 4px 4px;
+}
+
+.htag .hte-toolbar-wrapper > span {
+    color: #888;
+    cursor: default;
+    user-select: none;
+}
+
+.umb-control.-active .htag .hte-toolbar-wrapper {
+    display: block;
+}
+
+.htag .hte-toolbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.htag .hte-toolbar li {
+    float: left;
+    background: #efefef;
+    color: #b4b4b4;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.htag .hte-toolbar li.active {
+    color: #303033;
+    background: #d7d7d7;
+}
+
+.htag textarea {
+    font-weight: bold;
+    height: 60px;
+    line-height: 45px;
+}
+
+.htag .icon-wrap {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.htag .icon-layers-text {
+    font-weight: bold;
+}
+
+.htag textarea.text-left {
+    text-align: left;
+}
+.htag textarea.text-center {
+    text-align: center;
+}
+.htag textarea.text-right {
+    text-align: right;
+}
+
+.htag textarea.h1 {
+    font-size: 36px;
+}
+.htag textarea.h2 {
+    font-size: 32px;
+}
+.htag textarea.h3 {
+    font-size: 28px;
+}
+.htag textarea.h4 {
+    font-size: 24px;
+}
+.htag textarea.h5 {
+    font-size: 21px;
+}
+.htag textarea.h6 {
+    font-size: 18px;
+}

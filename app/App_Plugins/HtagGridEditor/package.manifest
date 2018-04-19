@@ -1,0 +1,18 @@
+﻿{
+  "gridEditors": [
+    {
+      "name": "Headline (H-tag)",
+      "alias": "htmlHeading",
+      "view": "~/App_Plugins/HtagGridEditor/editor.html",
+      "render": "~/App_Plugins/HtagGridEditor/htag-render.cshtml",
+      "icon": "icon-hte-heading"
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/HtagGridEditor/editor.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/HtagGridEditor/css/htag-icons.css",
+    "~/App_Plugins/HtagGridEditor/css/htag-styles.css"
+  ]
+}
