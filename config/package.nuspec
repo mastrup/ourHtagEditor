@@ -4,11 +4,11 @@
     <id>Our.Umbraco.HtagEditor</id>
     <version>1.0.1</version>
     <title>HtagEditor</title>
-    <authors>Søren Mastrup</authors>
+    <authors>Søren Mastrup, Bjarne Fyrstenborg</authors>
     <owners>Søren Mastrup</owners>
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
     <projectUrl>https://github.com/mastrup/ourHtagEditor</projectUrl>
-    <iconUrl>https://github.com/mastrup/ourHtagEditor/master/assets/img/htag-icon.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/mastrup/ourHtagEditor/8aa4980f/assets/img/hte-heading.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>H-tag editor is a simple grid editor that lets the editor pick a desired heading size (H1 down to H6) and the text-alignment (left, center or right).</description>
     <tags>Umbraco, grid, editor</tags>
