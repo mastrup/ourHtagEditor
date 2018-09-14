@@ -1,62 +1,62 @@
 ﻿<div ng-controller="Our.Umbraco.HtagEditor.Controller">
     <div class="htag clearfix">
-        <textarea rows="1" class="textstring input-block-level text-{{control.textAlign}} {{control.hTag}}" localize="placeholder" placeholder="grid_placeholderWriteHere" ng-model="control.value"></textarea>
+        <textarea rows="1" class="textstring input-block-level text-{{control.value.textAlign}} {{control.value.hTag}}" localize="placeholder" placeholder="grid_placeholderWriteHere" ng-model="control.value.text"></textarea>
 
         <div class="hte-toolbar-wrapper">
             <span><localize key="htag_position">Position</localize></span>
             <ul class="hte-toolbar">
-                <li ng-click="setPosition('left')" ng-class="{'active': control.textAlign=='left'}">
+                <li ng-click="setPosition('left')" ng-class="{'active': control.value.textAlign=='left'}">
                     <span class="icon-wrap">
                         <i class="icon-hte-align-left"></i>
                     </span>
                 </li>
-                <li ng-click="setPosition('center')" ng-class="{'active': control.textAlign=='center'}">
+                <li ng-click="setPosition('center')" ng-class="{'active': control.value.textAlign=='center'}">
                     <span class="icon-wrap">
                         <i class="icon-hte-align-center"></i>
                     </span>
                 </li>
-                <li ng-click="setPosition('right')" ng-class="{'active': control.textAlign=='right'}">
+                <li ng-click="setPosition('right')" ng-class="{'active': control.value.textAlign=='right'}">
                     <span class="icon-wrap">
                         <i class="icon-hte-align-right"></i>
                     </span>
                 </li>
             </ul>
         </div>
-        
+
         <div class="hte-toolbar-wrapper">
             <span><localize key="htag_size">Size</localize></span>
             <ul class="hte-toolbar">
-                <li ng-click="setSize('h1')" ng-class="{'active': control.hTag=='h1'}">
+                <li ng-click="setSize('h1')" ng-class="{'active': control.value.hTag=='h1'}">
                     <span class="icon-wrap">
                         <i class="icon-hte-heading"></i>
                         <span class="icon-layers-text">1</span>
                     </span>
                 </li>
-                <li ng-click="setSize('h2')" ng-class="{'active': control.hTag=='h2'}">
+                <li ng-click="setSize('h2')" ng-class="{'active': control.value.hTag=='h2'}">
                     <span class="icon-wrap">
                         <i class="icon-hte-heading"></i>
                         <span class="icon-layers-text">2</span>
                     </span>
                 </li>
-                <li ng-click="setSize('h3')" ng-class="{'active': control.hTag=='h3'}">
+                <li ng-click="setSize('h3')" ng-class="{'active': control.value.hTag=='h3'}">
                     <span class="icon-wrap">
                         <i class="icon-hte-heading"></i>
                         <span class="icon-layers-text">3</span>
                     </span>
                 </li>
-                <li ng-click="setSize('h4')" ng-class="{'active': control.hTag=='h4'}">
+                <li ng-click="setSize('h4')" ng-class="{'active': control.value.hTag=='h4'}">
                     <span class="icon-wrap">
                         <i class="icon-hte-heading"></i>
                         <span class="icon-layers-text">4</span>
                     </span>
                 </li>
-                <li ng-click="setSize('h5')" ng-class="{'active': control.hTag=='h5'}">
+                <li ng-click="setSize('h5')" ng-class="{'active': control.value.hTag=='h5'}">
                     <span class="icon-wrap">
                         <i class="icon-hte-heading"></i>
                         <span class="icon-layers-text">5</span>
                     </span>
                 </li>
-                <li ng-click="setSize('h6')" ng-class="{'active': control.hTag=='h6'}">
+                <li ng-click="setSize('h6')" ng-class="{'active': control.value.hTag=='h6'}">
                     <span class="icon-wrap">
                         <i class="icon-hte-heading"></i>
                         <span class="icon-layers-text">6</span>
