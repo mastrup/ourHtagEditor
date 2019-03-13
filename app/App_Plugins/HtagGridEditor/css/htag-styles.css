@@ -5,7 +5,7 @@
 }
 
 .htag .hte-toolbar-wrapper > span {
-    color: #888;
+    color: #b4b4b4;
     cursor: default;
     user-select: none;
     margin-left: 3px;
@@ -33,13 +33,15 @@
 }
 
 .htag .hte-toolbar li.active {
-    color: #303033;
+    color: #1b264f;
+    border-bottom: 3px solid #f5c1bc;
 }
 
 .htag textarea {
     font-weight: bold;
     height: 60px;
     line-height: 45px;
+    border: none;
 }
 
 .htag .icon-wrap {
