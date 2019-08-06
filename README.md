@@ -27,6 +27,9 @@ grunt
 
 ### Changelog
 
+**v1.0.4**
+- Prefix font icons to avoid conflicting with icons in Umbraco core and in third party packages
+
 **v1.0.3**
 - Updated editor to the look and feel of Umbraco 8
 

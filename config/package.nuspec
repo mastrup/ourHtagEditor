@@ -13,6 +13,9 @@
     <description>H-tag editor is a simple grid editor that lets the editor pick a desired heading size (H1 down to H6) and the text-alignment (left, center or right).</description>
     <tags>Umbraco, grid, editor</tags>
     <releaseNotes>
+v1.0.4
+Prefix font icons to avoid conflicting with icons in Umbraco core and in third party packages
+
 v1.0.3
 Updated editor to the look and feel of Umbraco 8
 
