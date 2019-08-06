@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?vufoj0');
-  src:  url('../fonts/icomoon.eot?vufoj0#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?vufoj0') format('truetype'),
-    url('../fonts/icomoon.woff?vufoj0') format('woff'),
-    url('../fonts/icomoon.svg?vufoj0#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?fq7xnx');
+  src:  url('../fonts/icomoon.eot?fq7xnx#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?fq7xnx') format('truetype'),
+    url('../fonts/icomoon.woff?fq7xnx') format('woff'),
+    url('../fonts/icomoon.svg?fq7xnx#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-hte-"], [class*=" icon-hte-"] {
+[class^="icon-oew-"], [class*=" icon-oew-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -24,18 +24,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-hte-align-center:before {
-  content: "\e901";
+.icon-oew-align-center:before {
+  content: "\e906";
 }
-.icon-hte-align-justify:before {
+.icon-oew-align-justify:before {
   content: "\e902";
 }
-.icon-hte-align-left:before {
+.icon-oew-align-left:before {
   content: "\e903";
 }
-.icon-hte-align-right:before {
+.icon-oew-align-right:before {
   content: "\e904";
 }
-.icon-hte-heading:before {
+.icon-oew-heading:before {
   content: "\e900";
 }

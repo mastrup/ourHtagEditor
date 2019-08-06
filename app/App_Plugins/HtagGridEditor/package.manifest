@@ -1,18 +1,18 @@
 ﻿{
   "gridEditors": [
     {
-      "name": "Headline (H-tag)",
+      "name": "Headline",
       "alias": "htmlHeading",
-      "view": "~/App_Plugins/HtagGridEditor/editor.html",
-      "render": "~/App_Plugins/HtagGridEditor/htag-render.cshtml",
-      "icon": "icon-hte-heading"
+      "view": "~/App_Plugins/HeadlineGridEditor/views/headline.editor.html",
+      "render": "~/App_Plugins/HeadlineGridEditor/views/headline.render.cshtml",
+      "icon": "icon-oew-heading"
     }
   ],
   "javascript": [
-    "~/App_Plugins/HtagGridEditor/editor.controller.js"
+    "~/App_Plugins/HtagGridEditor/scripts/headline.controller.js"
   ],
   "css": [
-    "~/App_Plugins/HtagGridEditor/css/htag-icons.css",
-    "~/App_Plugins/HtagGridEditor/css/htag-styles.css"
+    "~/App_Plugins/HtagGridEditor/css/headline-icons.css",
+    "~/App_Plugins/HtagGridEditor/css/headline-styles.css"
   ]
 }

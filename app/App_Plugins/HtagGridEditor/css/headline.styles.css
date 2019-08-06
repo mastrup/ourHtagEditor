@@ -1,27 +1,27 @@
-﻿.htag .hte-toolbar-wrapper {
+.headline .toolbar-wrapper {
     display: none;
     float: left;
     margin: 0 4px 4px 4px;
 }
 
-.htag .hte-toolbar-wrapper > span {
+.headline .toolbar-wrapper > span {
     color: #b4b4b4;
     cursor: default;
     user-select: none;
     margin-left: 3px;
 }
 
-.umb-control.-active .htag .hte-toolbar-wrapper {
+.umb-control.-active .headline .toolbar-wrapper {
     display: block;
 }
 
-.htag .hte-toolbar {
+.headline .toolbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.htag .hte-toolbar li {
+.headline .toolbar li {
     float: left;
     color: #b4b4b4;
     cursor: pointer;
@@ -32,19 +32,19 @@
     align-items: center;
 }
 
-.htag .hte-toolbar li.active {
+.headline .toolbar li.active {
     color: #1b264f;
     border-bottom: 3px solid #f5c1bc;
 }
 
-.htag textarea {
+.headline textarea {
     font-weight: bold;
     height: 60px;
     line-height: 45px;
     border: none;
 }
 
-.htag .icon-wrap {
+.headline .icon-wrap {
     display: flex;
     height: 100%;
     width: 100%;
@@ -52,7 +52,7 @@
     justify-content: center;
 }
 
-.htag .icon-layers-text {
+.headline .icon-layers-text {
     font-weight: bold;
     font-family: Lato,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 12px;
@@ -62,31 +62,31 @@
     margin-bottom: 6px;
 }
 
-.htag textarea.text-left {
+.headline textarea.text-left {
     text-align: left;
 }
-.htag textarea.text-center {
+.headline textarea.text-center {
     text-align: center;
 }
-.htag textarea.text-right {
+.headline textarea.text-right {
     text-align: right;
 }
 
-.htag textarea.h1 {
+.headline textarea.h1 {
     font-size: 36px;
 }
-.htag textarea.h2 {
+.headline textarea.h2 {
     font-size: 32px;
 }
-.htag textarea.h3 {
+.headline textarea.h3 {
     font-size: 28px;
 }
-.htag textarea.h4 {
+.headline textarea.h4 {
     font-size: 24px;
 }
-.htag textarea.h5 {
+.headline textarea.h5 {
     font-size: 21px;
 }
-.htag textarea.h6 {
+.headline textarea.h6 {
     font-size: 18px;
 }
