@@ -12,7 +12,7 @@
     "~/App_Plugins/HtagGridEditor/scripts/headline.controller.js"
   ],
   "css": [
-    "~/App_Plugins/HtagGridEditor/css/headline-icons.css",
-    "~/App_Plugins/HtagGridEditor/css/headline-styles.css"
+    "~/App_Plugins/HtagGridEditor/css/headline.icons.css",
+    "~/App_Plugins/HtagGridEditor/css/headline.styles.css"
   ]
 }
