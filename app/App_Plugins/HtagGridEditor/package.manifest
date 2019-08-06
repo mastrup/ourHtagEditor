@@ -3,8 +3,8 @@
     {
       "name": "Headline",
       "alias": "htmlHeading",
-      "view": "~/App_Plugins/HeadlineGridEditor/views/headline.editor.html",
-      "render": "~/App_Plugins/HeadlineGridEditor/views/headline.render.cshtml",
+      "view": "~/App_Plugins/HtagGridEditor/views/headline.editor.html",
+      "render": "~/App_Plugins/HtagGridEditor/views/headline.render.cshtml",
       "icon": "icon-oew-heading"
     }
   ],
