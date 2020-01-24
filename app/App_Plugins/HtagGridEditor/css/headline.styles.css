@@ -16,6 +16,10 @@
     display: block;
 }
 
+.umb-control .headline .toolbar-wrapper {
+    display: none;
+}
+
 .headline .toolbar {
     list-style-type: none;
     margin: 0;
