@@ -26,6 +26,8 @@ grunt
 ```
 
 ### Changelog
+**v1.0.5**
+- Added support for usage outside the grid, as a standard property editor (Thanks to Tom Pipe)
 
 **v1.0.4**
 - Prefix font icons to avoid conflicting with icons in Umbraco core and in third party packages
