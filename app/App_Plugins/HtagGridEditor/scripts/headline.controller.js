@@ -1,4 +1,20 @@
 ﻿angular.module("umbraco").controller("Our.Umbraco.HtagEditor.Controller", function ($scope) {
+
+    if(!$scope.control) {
+        // property editor usage, spoof grid control
+        $scope.control = $scope.model
+
+        if ($scope.model.value === null || $scope.model.value === "") {
+
+            // set initial defaults
+            $scope.model.value = {
+                textAlign: 'left',
+                    hTag: 'h1',
+                    text: ''
+            }
+        }
+    }
+
     if ($scope.control.value !== null) {
         //Handles conversion between editors created in version 1.0.1 to newer
         if (!angular.isObject($scope.control.value)) {

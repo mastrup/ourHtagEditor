@@ -11,8 +11,13 @@
     margin-left: 3px;
 }
 
+.umb-property-editor .headline .toolbar-wrapper,
 .umb-control.-active .headline .toolbar-wrapper {
     display: block;
+}
+
+.umb-control .headline .toolbar-wrapper {
+    display: none;
 }
 
 .headline .toolbar {

@@ -8,6 +8,17 @@
       "icon": "icon-oew-heading"
     }
   ],
+  "propertyEditors": [
+    {
+      "alias": "ourHtagEditor",
+      "name": "Headline",
+      "icon": "icon-oew-heading",
+      "group": "Rich Content",
+      "editor": {
+        "view": "~/App_Plugins/HtagGridEditor/views/headline.editor.html"
+      }
+    }
+  ],
   "javascript": [
     "~/App_Plugins/HtagGridEditor/scripts/headline.controller.js"
   ],
