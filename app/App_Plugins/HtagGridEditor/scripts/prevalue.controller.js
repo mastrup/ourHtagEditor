@@ -1,7 +1,10 @@
 ﻿angular.module("umbraco").controller("Our.Umbraco.HtagEditor.PreValueController", function ($scope, $http, $routeParams, assetsService, contentResource, notificationsService) {
 
-    $scope.sizeOptions =  $scope.model.config && $scope.model.config.options && $scope.model.config.options.size && $scope.model.config.options.size.options ? config.options.size.options : "h1,h2,h3,h4,h5,h6".split(",");
-    $scope.alignOptions = $scope.model.config && $scope.model.config.options && $scope.model.config.options.align && $scope.model.config.options.align.options ? config.options.align.options : "left,center,right".split(",");
+    var defaultSizes = ["h1","h2","h3","h4","h5","h6"];
+    var defaultAlign = ["left","center","right"];
+
+    $scope.sizeOptions =  $scope.model.config && $scope.model.config.options && $scope.model.config.options.size && $scope.model.config.options.size.options ? config.options.size.options : defaultSizes;
+    $scope.alignOptions = $scope.model.config && $scope.model.config.options && $scope.model.config.options.align && $scope.model.config.options.align.options ? config.options.align.options : defaultAlign;
 
     if (!$scope.model.value.size.options)
         $scope.model.value.size.options = $scope.sizeOptions.slice(0);
@@ -11,6 +14,7 @@
 
     $scope.toggleAlign = function(align){
         toggleOption($scope.model.value.align.options, align, $scope.model.value.align.default);
+        sort($scope.model.value.align.options, defaultAlign);
     }
 
     $scope.defaultAlign = function(align){
@@ -29,6 +33,7 @@
 
     $scope.toggleSize = function(size){
         toggleOption($scope.model.value.size.options, size, $scope.model.value.size.default);
+        $scope.model.value.size.options.sort();
     }
 
     function isSelected(values, value) {
@@ -44,5 +49,11 @@
         else {
             selected.push(valueToToggle);
         }
+    }
+
+    function sort(arrayToSort, referenceArray) {
+        arrayToSort.sort(function(a, b) {
+            return referenceArray.indexOf(a) - referenceArray.indexOf(b);
+        });
     }
 });
