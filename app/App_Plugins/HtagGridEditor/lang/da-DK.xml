@@ -7,5 +7,7 @@
   <area alias="headline">
     <key alias="position">Position</key>
     <key alias="size">Størrelse</key>
+    <key alias="default">Standard</key>
+    <key alias="allowed">Tilladt</key>
   </area>
 </language>
