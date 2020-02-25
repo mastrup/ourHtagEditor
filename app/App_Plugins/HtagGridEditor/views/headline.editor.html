@@ -1,6 +1,6 @@
 ﻿<div ng-controller="Our.Umbraco.HtagEditor.Controller">
-    <div class="headline clearfix">
-        <textarea rows="1" class="textstring input-block-level text-{{control.value.textAlign}} {{control.value.hTag}}" localize="placeholder" placeholder="grid_placeholderWriteHere" ng-model="control.value.text"></textarea>
+    <div class="headline clearfix {{ control.config.css }}">
+        <textarea umb-auto-resize rows="1" class="textstring input-block-level text-{{control.value.textAlign}} {{control.value.hTag}}" localize="placeholder" placeholder="grid_placeholderWriteHere" ng-model="control.value.text"></textarea>
 
         <div class="toolbar-wrapper">
             <span><localize key="headline_position">Position</localize></span>
