@@ -1,18 +1,15 @@
 ﻿angular.module("umbraco").controller("Our.Umbraco.HtagEditor.Controller", function ($scope) {
 
+    var config = {};
+
     if(!$scope.control) {
-        // property editor usage, spoof grid control
+        // property editor usage
         $scope.control = $scope.model
-
-        if ($scope.model.value === null || $scope.model.value === "") {
-
-            // set initial defaults
-            $scope.model.value = {
-                textAlign: 'left',
-                    hTag: 'h1',
-                    text: ''
-            }
-        }
+        config = $scope.model.config;
+    }
+    else {
+        // grid usage
+        config = $scope.control.editor.config;
     }
 
     if ($scope.control.value !== null) {
@@ -29,11 +26,18 @@
             };
         }
     } else {
+        var defaultAlign = config.options.align.default;
+        var defaultSize = config.options.size.default;
+
         $scope.control.value = {
-            "textAlign": "left",
-            "hTag": "h1"
-        };
+            textAlign: defaultAlign ? defaultAlign : "left",
+            hTag: defaultSize ? defaultSize : "h1",
+            text: ''
+        }
     }
+
+    $scope.sizeOptions = config.options && config.options.size && config.options.size.options ? config.options.size.options : "h1,h2,h3,h4,h5,h6".split(",");
+    $scope.alignOptions = config.options && config.options.align && config.options.align.options ? config.options.align.options : "left,center,right".split(",");
 
     $scope.setPosition = function (pos) {
         $scope.control.value.textAlign = pos;

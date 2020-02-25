@@ -7,5 +7,7 @@
   <area alias="headline">
     <key alias="position">Alignment</key>
     <key alias="size">Heading</key>
+    <key alias="default">Default</key>
+    <key alias="allowed">Allowed</key>
   </area>
 </language>
