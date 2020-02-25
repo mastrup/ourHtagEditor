@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Our.Umbraco.HtagEditor</id>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <title>HtagEditor</title>
     <authors>Søren Mastrup, Bjarne Fyrstenborg</authors>
     <owners>Søren Mastrup</owners>
@@ -13,6 +13,9 @@
     <description>H-tag editor is a simple grid editor that lets the editor pick a desired heading size (H1 down to H6) and the text-alignment (left, center or right).</description>
     <tags>Umbraco, grid, editor</tags>
     <releaseNotes>
+v1.0.6
+Added configurable options. Allows disabling of each size/alignment, and to define a default (Thanks to Tom Pipe)
+
 v1.0.5
 Added support for usage outside the grid, as a standard property editor (Thanks to Tom Pipe)
 
