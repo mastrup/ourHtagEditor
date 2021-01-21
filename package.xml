@@ -2,11 +2,11 @@
 <umbPackage>
   <info>
     <package>
-      <name>HtagGridEditor</name>
-      <version>1.0.0</version>
+      <name>H-tag editor</name>
+      <version>1.1.0</version>
       <iconUrl></iconUrl>
       <licence url="https://opensource.org/licenses/MIT">MIT</licence>
-      <url>https://our.umbraco.com</url>
+      <url>https://github.com/mastrup/ourHtagEditor</url>
       <requirements type="strict">
         <major>8</major>
         <minor>0</minor>
@@ -14,10 +14,10 @@
       </requirements>
     </package>
     <author>
-      <name>UmbracoPackageTeam</name>
-      <website>https://our.umbraco.com</website>
+      <name>Søren Mastrup</name>
+      <website>https://github.com/mastrup</website>
     </author>
-    <readme><![CDATA[Another awesome package]]></readme>
+    <readme><![CDATA[H-tag editor is a simple grid editor that lets the editor pick a desired heading size (H1 down to H6) and the text-alignment (left, center or right).]]></readme>
   </info>
   <files>
     <folder path="src/HtagGridEditor/App_Plugins/HtagGridEditor" orgPath="App_Plugins/HtagGridEditor" />
