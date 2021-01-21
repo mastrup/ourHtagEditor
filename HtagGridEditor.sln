@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtagGridEditor.Site", ".website\HtagGridEditor.Site.csproj", "{b3ef8e6a-d044-4357-822c-fd1663db9cb3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtagGridEditor", "src\HtagGridEditor\HtagGridEditor.csproj", "{4b583923-cf82-4ac4-b337-41c2369bf1bd}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{b3ef8e6a-d044-4357-822c-fd1663db9cb3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b3ef8e6a-d044-4357-822c-fd1663db9cb3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b3ef8e6a-d044-4357-822c-fd1663db9cb3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{b3ef8e6a-d044-4357-822c-fd1663db9cb3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4b583923-cf82-4ac4-b337-41c2369bf1bd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4b583923-cf82-4ac4-b337-41c2369bf1bd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4b583923-cf82-4ac4-b337-41c2369bf1bd}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4b583923-cf82-4ac4-b337-41c2369bf1bd}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A4335E4-0198-4777-9409-64E22F1F8F2C}
+	EndGlobalSection
+EndGlobal

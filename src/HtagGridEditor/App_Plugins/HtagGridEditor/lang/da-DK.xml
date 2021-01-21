@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="da" intName="Danish" localName="dansk" lcid="6" culture="da-DK">
+  <creator>
+    <name>Søren Mastrup</name>
+    <link>https://mastrup.it</link>
+  </creator>
+  <area alias="headline">
+    <key alias="position">Position</key>
+    <key alias="size">Størrelse</key>
+    <key alias="default">Standard</key>
+    <key alias="allowed">Tilladt</key>
+  </area>
+</language>

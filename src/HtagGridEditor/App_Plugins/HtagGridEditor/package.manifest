@@ -1,0 +1,70 @@
+{
+  "gridEditors": [
+    {
+      "name": "Headline",
+      "alias": "htmlHeading",
+      "view": "~/App_Plugins/HtagGridEditor/views/headline.editor.html",
+      "render": "~/App_Plugins/HtagGridEditor/views/headline.render.cshtml",
+      "icon": "icon-oew-heading",
+      "config": {
+        "options": {
+          "size": {
+            "default": "h1",
+            "options": [ "h1", "h2", "h3", "h4", "h5", "h6" ]
+          },
+          "align": {
+            "default": "left",
+            "options": [ "left", "center", "right" ]
+          }
+        }
+      }
+    }
+  ],
+  "propertyEditors": [
+    {
+      "alias": "ourHtagEditor",
+      "name": "Headline",
+      "icon": "icon-oew-heading",
+      "group": "Rich Content",
+      "editor": {
+        "view": "~/App_Plugins/HtagGridEditor/views/headline.editor.html"
+      },
+      "prevalues": {
+        "fields": [
+          {
+            "label": "Options",
+            "description": "Enable/Disable heading sizes/alignments",
+            "key": "options",
+            "view": "~/App_Plugins/HtagGridEditor/views/headline.prevalues.html",
+            "config": {
+              "size": {
+                "options": [ "h1", "h2", "h3", "h4", "h5", "h6" ]
+              },
+              "align": {
+                "options": [ "left", "center", "right" ]
+              }
+            }
+          }
+        ]
+      },
+      "defaultConfig": {
+        "options": {
+          "size": {
+            "default": "h1"
+          },
+          "align": {
+            "default": "left"
+          }
+        }
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/HtagGridEditor/scripts/headline.controller.js",
+    "~/App_Plugins/HtagGridEditor/scripts/prevalue.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/HtagGridEditor/css/headline.icons.css",
+    "~/App_Plugins/HtagGridEditor/css/headline.styles.css"
+  ]
+}

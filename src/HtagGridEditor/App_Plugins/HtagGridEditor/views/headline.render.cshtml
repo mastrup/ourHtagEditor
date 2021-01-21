@@ -1,0 +1,14 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<dynamic>
+
+@if (Model.value.GetType() == new Newtonsoft.Json.Linq.JObject().GetType())
+{
+    <text>
+        <@Model.value.hTag style="text-align: @Model.value.textAlign;">@Model.value.text<@("/" + Model.value.hTag)>
+    </text>
+}
+else
+{
+    <text>
+        <@Model.hTag style="text-align: @Model.textAlign;">@Model.value<@("/" + Model.hTag)>
+    </text>
+}
