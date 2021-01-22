@@ -8,22 +8,7 @@ This editor is built for the Umbraco [Grid Layout](https://our.umbraco.org/docum
 Download and install the package from our.umbraco.org or<br>
 drop the files in the App_Plugins folder, located in the root of your Umbraco installation.
 
-Install via NuGet or the Umbraco Package Installer: https://github.com/mastrup/ourHtagEditor/releases
-
-## Setup
-
-### Install Dependencies
-
-```bash
-npm install -g grunt-cli
-npm install
-```
-
-### Build
-
-```bash
-grunt
-```
+Install via [NuGet](https://www.nuget.org/packages/Our.Umbraco.HtagEditor) or the [Umbraco Package Installer](https://our.umbraco.com/packages/backoffice-extensions/h-tag-grid-editor/).
 
 ### Changelog
 **v1.0.5**
