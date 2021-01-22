@@ -9,7 +9,7 @@
       <url>https://github.com/mastrup/ourHtagEditor</url>
       <requirements type="strict">
         <major>8</major>
-        <minor>0</minor>
+        <minor>1</minor>
         <patch>0</patch>
       </requirements>
     </package>
