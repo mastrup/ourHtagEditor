@@ -15,7 +15,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="UmbracoCms.Web" Version="8.6.2" />
+		<PackageReference Include="UmbracoCms.Web" Version="8.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
