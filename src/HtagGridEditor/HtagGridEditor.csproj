@@ -11,6 +11,7 @@
 	<PropertyGroup>
 		<OutputPath>bin\output\</OutputPath>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<PackageId>Our.Umbraco.HtagEditor</PackageId>
 	</PropertyGroup>
 
 	<ItemGroup>
