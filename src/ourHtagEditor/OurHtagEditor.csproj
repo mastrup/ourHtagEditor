@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ContentTargetFolders>.</ContentTargetFolders>
+		<Product>ourHtagEditor</Product>
+		<PackageId>ourHtagEditor</PackageId>
+		<Title>ourHtagEditor</Title>
+		<Description>H-tag editor is a simple editor that lets the user pick a desired heading size (H1 down to H6) and the text-alignment (left, center or right).</Description>
+		<PackageTags>umbraco plugin package</PackageTags>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>2.0.0</Version>
+		<Authors>Søren Mastrup</Authors>
+		<Copyright>Copyright © 2022</Copyright>
+		<PackageIcon>hte-heading.png</PackageIcon>
+		<RepositoryUrl>https://github.com/mastrup/ourHtagEditor</RepositoryUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Umbraco.Cms.Web.Website" Version="10.0.1" />
+		<PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="10.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="App_Plugins\ourHtagEditor\**">
+			<ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+			<CopyToPublishDirectory>Always</CopyToPublishDirectory>
+		</Content>
+		<None Include="build\**">
+			<Pack>true</Pack>
+			<PackagePath>buildTransitive</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\assets\img\hte-heading.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+</Project>

@@ -11,6 +11,11 @@ drop the files in the App_Plugins folder, located in the root of your Umbraco in
 Install via [NuGet](https://www.nuget.org/packages/Our.Umbraco.HtagEditor) or the [Umbraco Package Installer](https://our.umbraco.com/packages/backoffice-extensions/h-tag-grid-editor/).
 
 ### Changelog
+**v2.0.0**
+- Minimum required Umbraco version is 10.0.1.
+- Added Tag Helper that can be used to generate the H-tag in views.
+    - The old extension methods has been removed in favor of the new Tag Helper.
+
 **v1.1.1**
 - Added extension methods and a value converter for models builder.
     - .GetHtml() gets the selected h-tag formatted as HTML and .GetHtml("cssClass") lets you add a css class to the generated HTML.

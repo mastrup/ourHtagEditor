@@ -1,0 +1,25 @@
+﻿<div ng-controller="Our.Umbraco.HtagEditor.Controller">
+    <div class="headline clearfix {{ control.config.css }}">
+        <textarea umb-auto-resize rows="1" class="textstring input-block-level text-{{control.value.textAlign}} {{control.value.hTag}}" localize="placeholder" placeholder="grid_placeholderWriteHere" ng-model="control.value.text"></textarea>
+
+        <div class="toolbar-wrapper">
+            <span><localize key="headline_position">Position</localize></span>
+            <ul class="toolbar">
+                <li ng-repeat="align in alignOptions" ng-click="setPosition(align)" ng-class="{'active': control.value.textAlign === align}" role="button" aria-label="{{align}}">
+                    <umb-icon icon="icon-oew-align-{{align}}" class="small"></umb-icon>
+                </li>
+            </ul>
+        </div>
+
+        <div class="toolbar-wrapper">
+            <span><localize key="headline_size">Size</localize></span>
+            <ul class="toolbar">
+                <li ng-repeat="size in sizeOptions" ng-click="setSize(size)" ng-class="{'active': control.value.hTag === size}" role="button" aria-label="H{{size}}">
+                    <umb-icon icon="icon-oew-heading" class="small"></umb-icon>
+                    <span class="icon-layers-text">{{ size[size.length - 1] }}</span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
