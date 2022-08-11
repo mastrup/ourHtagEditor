@@ -24,7 +24,7 @@ This will make it possible to use the following in your views:
 ```cshtml
 <headline htag="@Model.Headline" />
 ```
-Depending on your chosen settings on the property editor it could render:
+Depending on your chosen settings on the property editor, it could render:
 ```html
 <h2 style="text-align: left;">This is my nice headline</h2>
 ```
@@ -39,7 +39,7 @@ Using both attributes could look like this:
 Which will render:
 ```html
 <a href="https://umbraco.com/" title="Visit Umbraco.com" target="_blank" rel="noopener">
-    <h2 style="text-align: left;">This is my nice headline</h2>
+    <h2 style="text-align: left;" class="css-class">This is my nice headline</h2>
 </a>
 ```
 
