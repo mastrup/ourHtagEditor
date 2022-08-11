@@ -1,5 +1,4 @@
 .headline .toolbar-wrapper {
-    display: none;
     float: left;
     margin: 0 4px 4px 4px;
 }
@@ -11,33 +10,23 @@
     margin-left: 3px;
 }
 
-.umb-property-editor .headline .toolbar-wrapper,
-.umb-control.-active .headline .toolbar-wrapper {
-    display: block;
-}
-
-.umb-control .headline .toolbar-wrapper {
-    display: none;
-}
-
-.headline .toolbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.headline .toolbar li {
-    float: left;
+.headline .toolbar button {
+    background: none;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 3px solid #fff;
+    border-left: 0;
+    padding: 8px 8px 2px 8px;
     color: #b4b4b4;
-    cursor: pointer;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.headline .toolbar li.active {
+.headline .toolbar button.has-layers {
+    display: flex;
+    float: left;
+    padding: 8px 4px 6px;
+}
+
+.headline .toolbar button.active {
     color: #1b264f;
     border-bottom: 3px solid #f5c1bc;
 }
@@ -61,10 +50,8 @@
     font-weight: bold;
     font-family: Lato,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 12px;
-    line-height: 1;
-    display: flex;
-    align-self: flex-end;
-    margin-bottom: 6px;
+    margin-top: 4px;
+    margin-left: 1px;
 }
 
 .headline textarea.text-left {

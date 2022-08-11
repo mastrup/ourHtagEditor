@@ -4,21 +4,21 @@
 
         <div class="toolbar-wrapper">
             <span><localize key="headline_position">Position</localize></span>
-            <ul class="toolbar">
-                <li ng-repeat="align in alignOptions" ng-click="setPosition(align)" ng-class="{'active': control.value.textAlign === align}" role="button" aria-label="{{align}}">
+            <div class="toolbar">
+                <button type="button" ng-repeat="align in alignOptions" ng-click="setPosition(align)" ng-class="{'active': control.value.textAlign === align}" role="button" aria-label="{{align}}">
                     <umb-icon icon="icon-oew-align-{{align}}" class="small"></umb-icon>
-                </li>
-            </ul>
+                </button>
+            </div>
         </div>
 
         <div class="toolbar-wrapper">
             <span><localize key="headline_size">Size</localize></span>
-            <ul class="toolbar">
-                <li ng-repeat="size in sizeOptions" ng-click="setSize(size)" ng-class="{'active': control.value.hTag === size}" role="button" aria-label="H{{size}}">
+            <div class="toolbar">
+                <button type="button" class="has-layers" ng-repeat="size in sizeOptions" ng-click="setSize(size)" ng-class="{'active': control.value.hTag === size}" role="button" aria-label="H{{size}}">
                     <umb-icon icon="icon-oew-heading" class="small"></umb-icon>
                     <span class="icon-layers-text">{{ size[size.length - 1] }}</span>
-                </li>
-            </ul>
+                </button>
+            </div>
         </div>
 
     </div>

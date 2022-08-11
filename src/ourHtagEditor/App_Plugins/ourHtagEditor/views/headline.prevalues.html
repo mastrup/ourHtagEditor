@@ -1,50 +1,42 @@
 ﻿<div ng-controller="Our.Umbraco.HtagEditor.PreValueController">
-   
+
     <div class="headline">
         <div class="toolbar-wrapper">
             <span><localize key="headline_allowed">Allowed</localize></span>
-            <ul class="toolbar">
-                <li ng-repeat="align in alignOptions" ng-click="toggleAlign(align)" ng-class="{'active': model.value.align.options.indexOf(align) !== -1}">
-                    <span class="icon-wrap">
-                        <i class="icon-oew-align-{{align}}"></i>
-                    </span>
-                </li>
-            </ul>
+            <div class="toolbar">
+                <button type="button" ng-repeat="align in alignOptions" ng-click="toggleAlign(align)" ng-class="{'active': model.value.align.options.indexOf(align) !== -1}">
+                    <umb-icon icon="icon-oew-align-{{align}}" class="small"></umb-icon>
+                </button>
+            </div>
         </div>
 
         <div class="toolbar-wrapper">
             <span>&nbsp;</span>
-            <ul class="toolbar">
-                <li ng-repeat="size in sizeOptions" ng-click="toggleSize(size)" ng-class="{'active': model.value.size.options.indexOf(size) !== -1}">
-                    <span class="icon-wrap">
-                        <i class="icon-oew-heading"></i>
-                        <span class="icon-layers-text">{{ size[size.length - 1] }}</span>
-                    </span>
-                </li>
-            </ul>
+            <div class="toolbar">
+                <button type="button" class="has-layers" ng-repeat="size in sizeOptions" ng-click="toggleSize(size)" ng-class="{'active': model.value.size.options.indexOf(size) !== -1}">
+                    <umb-icon icon="icon-oew-heading" class="small"></umb-icon>
+                    <span class="icon-layers-text">{{ size[size.length - 1] }}</span>
+                </button>
+            </div>
         </div>
-        
+
         <div class="toolbar-wrapper" style="clear:both;">
             <span><localize key="headline_default">Default</localize></span>
-            <ul class="toolbar">
-                <li ng-repeat="align in alignOptions" ng-click="defaultAlign(align)" ng-class="{'active': model.value.align.default === align}">
-                    <span class="icon-wrap">
-                        <i class="icon-oew-align-{{align}}"></i>
-                    </span>
-                </li>
-            </ul>
+            <div class="toolbar">
+                <button type="button" ng-repeat="align in alignOptions" ng-click="defaultAlign(align)" ng-class="{'active': model.value.align.default === align}">
+                    <umb-icon icon="icon-oew-align-{{align}}" class="small"></umb-icon>
+                </button>
+            </div>
         </div>
 
         <div class="toolbar-wrapper">
             <span>&nbsp;</span>
-            <ul class="toolbar">
-                <li ng-repeat="size in sizeOptions" ng-click="defaultSize(size)" ng-class="{'active': model.value.size.default === size}">
-                    <span class="icon-wrap">
-                        <i class="icon-oew-heading"></i>
-                        <span class="icon-layers-text">{{ size[size.length - 1] }}</span>
-                    </span>
-                </li>
-            </ul>
+            <div class="toolbar">
+                <button type="button" class="has-layers" ng-repeat="size in sizeOptions" ng-click="defaultSize(size)" ng-class="{'active': model.value.size.default === size}">
+                    <umb-icon icon="icon-oew-heading" class="small"></umb-icon>
+                    <span class="icon-layers-text">{{ size[size.length - 1] }}</span>
+                </button>
+            </div>
         </div>
     </div>
 
