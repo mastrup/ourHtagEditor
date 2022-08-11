@@ -4,8 +4,8 @@
 		<ContentTargetFolders>.</ContentTargetFolders>
 		<Product>ourHtagEditor</Product>
 		<PackageId>ourHtagEditor</PackageId>
-		<Title>ourHtagEditor</Title>
-		<Description>H-tag editor is a simple editor that lets the user pick a desired heading size (H1 down to H6) and the text-alignment (left, center or right).</Description>
+		<Title>H-tag editor</Title>
+		<Description>H-tag editor is a simple property editor that lets the editor pick a desired heading size (H1 down to H6) and the text-alignment (left, center or right).</Description>
 		<PackageTags>umbraco plugin package</PackageTags>
 	</PropertyGroup>
 
@@ -15,6 +15,11 @@
 		<Copyright>Copyright © 2022</Copyright>
 		<PackageIcon>hte-heading.png</PackageIcon>
 		<RepositoryUrl>https://github.com/mastrup/ourHtagEditor</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageReleaseNotes>Added Tag Helper that can be used to generate the H-tag in views.
+Removed the grid functionality since it will be removed in Umbraco 13.</PackageReleaseNotes>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -35,6 +40,10 @@
 
 	<ItemGroup>
 	  <None Include="..\..\assets\img\hte-heading.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\..\readme.md">
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
 	  </None>
