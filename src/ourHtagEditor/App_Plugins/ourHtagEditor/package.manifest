@@ -2,27 +2,6 @@
   "name": "ourHtagEditor",
   "version": "",
   "allowPackageTelemetry": true,
-  "gridEditors": [
-    {
-      "name": "Headline",
-      "alias": "htmlHeading",
-      "view": "~/App_Plugins/ourHtagEditor/views/headline.editor.html",
-      "render": "~/App_Plugins/ourHtagEditor/views/headline.render.cshtml",
-      "icon": "icon-oew-heading",
-      "config": {
-        "options": {
-          "size": {
-            "default": "h1",
-            "options": [ "h1", "h2", "h3", "h4", "h5", "h6" ]
-          },
-          "align": {
-            "default": "left",
-            "options": [ "left", "center", "right" ]
-          }
-        }
-      }
-    }
-  ],
   "propertyEditors": [
     {
       "alias": "ourHtagEditor",
