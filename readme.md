@@ -16,7 +16,7 @@ After restarting your site, you'll be able to create a new data type that uses t
 ![H-tag editor in action](https://raw.githubusercontent.com/mastrup/ourHtagEditor/main/assets/img/screenshot.jpg)
 
 ### Using the Tag Helper
-Browse to /Views/_ViewImports.cshtml in your Umbraco project and add the following line at the bottom
+Browse to `/Views/_ViewImports.cshtml` in your Umbraco project and add the following line at the bottom
 ```cshtml
 @addTagHelper *, OurHtagEditor
 ```
