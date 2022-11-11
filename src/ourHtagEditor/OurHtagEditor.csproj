@@ -10,14 +10,14 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<Version>2.0.0</Version>
+		<Version>2.0.1</Version>
 		<Authors>Søren Mastrup</Authors>
 		<Copyright>Copyright © 2022</Copyright>
 		<PackageIcon>hte-heading.png</PackageIcon>
+		<PackageProjectUrl>https://github.com/mastrup/ourHtagEditor</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/mastrup/ourHtagEditor</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
-		<PackageReleaseNotes>Added Tag Helper that can be used to generate the H-tag in views.
-Removed the grid functionality since it will be removed in Umbraco 13.</PackageReleaseNotes>
+		<PackageReleaseNotes>Hiding the alignment selection on the property editor if only one option is allowed on the data type.</PackageReleaseNotes>
 		<PackageReadmeFile>readme.md</PackageReadmeFile>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
