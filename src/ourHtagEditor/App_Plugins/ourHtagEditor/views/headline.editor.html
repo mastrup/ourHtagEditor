@@ -2,7 +2,7 @@
     <div class="headline clearfix {{ control.config.css }}">
         <textarea umb-auto-resize rows="1" class="textstring input-block-level text-{{control.value.textAlign}} {{control.value.hTag}}" localize="placeholder" placeholder="grid_placeholderWriteHere" ng-model="control.value.text"></textarea>
 
-        <div class="toolbar-wrapper">
+        <div class="toolbar-wrapper" ng-if="alignOptions.length > 1">
             <span><localize key="headline_position">Position</localize></span>
             <div class="toolbar">
                 <button type="button" ng-repeat="align in alignOptions" ng-click="setPosition(align)" ng-class="{'active': control.value.textAlign === align}" role="button" aria-label="{{align}}">

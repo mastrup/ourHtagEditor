@@ -36,6 +36,11 @@
     $scope.sizeOptions = config.options && config.options.size && config.options.size.options ? config.options.size.options : "h1,h2,h3,h4,h5,h6".split(",");
     $scope.alignOptions = config.options && config.options.align && config.options.align.options ? config.options.align.options : "left,center,right".split(",");
 
+    //If only one alignment is allowed, set the current alignemt to match the default if they don't already match.
+    if ($scope.alignOptions.length === 1 && $scope.control.value.textAlign !== config.options.align.default) {
+        $scope.control.value.textAlign = config.options.align.default;
+    }
+
     $scope.setPosition = function (pos) {
         $scope.control.value.textAlign = pos;
     };
