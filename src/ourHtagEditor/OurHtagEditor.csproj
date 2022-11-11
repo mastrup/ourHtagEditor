@@ -6,7 +6,7 @@
 		<PackageId>ourHtagEditor</PackageId>
 		<Title>H-tag editor</Title>
 		<Description>H-tag editor is a simple property editor that lets the editor pick a desired heading size (H1 down to H6) and the text-alignment (left, center or right).</Description>
-		<PackageTags>umbraco plugin package</PackageTags>
+		<PackageTags>umbraco plugin package umbraco-marketplace</PackageTags>
 	</PropertyGroup>
 
 	<PropertyGroup>
