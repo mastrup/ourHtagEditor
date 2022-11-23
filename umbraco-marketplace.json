@@ -1,0 +1,27 @@
+{
+    "AlternatePackageNames": ["Our.Umbraco.HtagEditor"],
+    "AuthorDetails": {
+      "Description": "Søren works at Danfoss A/S as Lead Consultant for MyDanfoss and web development. This package is provided in a personal capacity.",
+      "Url": "https://github.com/mastrup",
+      "ImageUrl": "https://www.gravatar.com/avatar/aaed296ee7da91171d36b81768b5a7ae?s=500"
+    },
+    "Category": "Editor Tools",
+    "LicenseTypes": [ "Free" ],
+    "IssueTrackerUrl": "https://github.com/mastrup/ourHtagEditor/issues",
+    "PackageType": "Package",
+    "PackagesByAuthor": ["ShareX.CustomUploader"],
+    "Screenshots": [
+      {
+        "ImageUrl": "https://raw.githubusercontent.com/mastrup/ourHtagEditor/main/assets/img/screenshot.jpg",
+        "Caption": "The H-tag editor inserted on a Umbraco content node."
+      }
+    ],
+    "Tags": ["headline", "tag helper", "editor", "property editor"],
+    "Title": "H-tag editor",
+    "VersionSpecificPackageIds": [
+      {
+        "UmbracoMajorVersion": 8,
+        "PackageId": "Our.Umbraco.HtagEditor"
+      }
+    ]
+  }
