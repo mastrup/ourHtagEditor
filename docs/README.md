@@ -1,6 +1,7 @@
 ---
-meta.Title: H-tag editor Documentation
-description: Documentation on how to use H-tag editor with Umbraco.
+title: H-tag editor Documentation
+metaTitle: H-tag editor Documentation
+metaDescription: Documentation on how to use H-tag editor with Umbraco.
 ---
 
 # H-tag editor Documentation
