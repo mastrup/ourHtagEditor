@@ -1,3 +1,7 @@
+---
+description: This article describes how you can use the H-tag editor tag helper in your views.
+---
+
 # How to use
 
 Browse to `/Views/_ViewImports.cshtml` in your Umbraco project and add the following line at the bottom
