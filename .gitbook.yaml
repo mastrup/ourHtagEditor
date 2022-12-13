@@ -2,3 +2,6 @@ root: ./docs/
 
 ​structure:  
     readme: README.md
+
+redirects:  
+    setup: installation.md
