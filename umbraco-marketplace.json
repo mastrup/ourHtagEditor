@@ -8,6 +8,7 @@
     "Category": "Editor Tools",
     "LicenseTypes": [ "Free" ],
     "IssueTrackerUrl": "https://github.com/mastrup/ourHtagEditor/issues",
+    "DocumentationUrl": "https://htag-docs.mastrup.it",
     "PackageType": "Package",
     "PackagesByAuthor": ["ShareX.CustomUploader"],
     "Screenshots": [
