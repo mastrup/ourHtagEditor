@@ -17,7 +17,7 @@
 		<PackageProjectUrl>https://github.com/mastrup/ourHtagEditor</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/mastrup/ourHtagEditor</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
-		<PackageReleaseNotes>Hiding the alignment selection on the property editor if only one option is allowed on the data type.</PackageReleaseNotes>
+		<PackageReleaseNotes>Updated the package to use .NET 7</PackageReleaseNotes>
 		<PackageReadmeFile>readme.md</PackageReadmeFile>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>

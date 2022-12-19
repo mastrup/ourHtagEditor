@@ -1,6 +1,9 @@
 # Changelog
 Latest changes
 
+**v3.0.0**
+- Updated the package to use .NET 7 - Minimum required Umbraco version is 11.0.0.
+
 **v2.0.1**
 - Hiding the alignment selection on the property editor if only one option is allowed on the data type.
 
