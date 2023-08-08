@@ -1,28 +1,29 @@
 {
-    "AlternatePackageNames": ["Our.Umbraco.HtagEditor"],
-    "AuthorDetails": {
-      "Description": "Søren works at Danfoss A/S as Lead Consultant for MyDanfoss and web development. This package is provided in a personal capacity.",
-      "Url": "https://github.com/mastrup",
-      "ImageUrl": "https://github.com/mastrup.png"
-    },
-    "Category": "Editor Tools",
-    "LicenseTypes": [ "Free" ],
-    "IssueTrackerUrl": "https://github.com/mastrup/ourHtagEditor/issues",
-    "DocumentationUrl": "https://htag-docs.mastrup.it",
-    "PackageType": "Package",
-    "PackagesByAuthor": ["ShareX.CustomUploader"],
-    "Screenshots": [
-      {
-        "ImageUrl": "https://raw.githubusercontent.com/mastrup/ourHtagEditor/main/assets/img/screenshot.jpg",
-        "Caption": "The H-tag editor inserted on a Umbraco content node."
-      }
-    ],
-    "Tags": ["headline", "tag helper", "editor", "property editor"],
-    "Title": "H-tag editor",
-    "VersionSpecificPackageIds": [
-      {
-        "UmbracoMajorVersion": 8,
-        "PackageId": "Our.Umbraco.HtagEditor"
-      }
-    ]
-  }
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "AuthorDetails": {
+    "Name": "Søren Mastrup",
+    "Description": "Søren works at Danfoss A/S as Lead Consultant for MyDanfoss and web development. This package is provided in a personal capacity.",
+    "Url": "https://github.com/mastrup",
+    "ImageUrl": "https://github.com/mastrup.png"
+  },
+  "Category": "Editor Tools",
+  "LicenseTypes": [ "Free" ],
+  "IssueTrackerUrl": "https://github.com/mastrup/ourHtagEditor/issues",
+  "DocumentationUrl": "https://htag-docs.mastrup.it",
+  "PackageType": "Package",
+  "PackagesByAuthor": ["ShareX.CustomUploader"],
+  "Screenshots": [
+    {
+      "ImageUrl": "https://raw.githubusercontent.com/mastrup/ourHtagEditor/main/assets/img/screenshot.jpg",
+      "Caption": "The H-tag editor inserted on a Umbraco content node."
+    }
+  ],
+  "Tags": ["headline", "tag helper", "editor", "property editor"],
+  "Title": "H-tag editor",
+  "VersionSpecificPackageIds": [
+    {
+      "UmbracoMajorVersion": 8,
+      "PackageId": "Our.Umbraco.HtagEditor"
+    }
+  ]
+}
