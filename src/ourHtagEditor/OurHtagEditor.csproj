@@ -17,13 +17,13 @@
 		<PackageProjectUrl>https://github.com/mastrup/ourHtagEditor</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/mastrup/ourHtagEditor</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
-		<PackageReleaseNotes>Updated the package to use .NET 7</PackageReleaseNotes>
+		<PackageReleaseNotes>Bumped Umbraco from 11.0.0 to 11.4.2</PackageReleaseNotes>
 		<PackageReadmeFile>readme.md</PackageReadmeFile>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Umbraco.Cms.Web.Website" Version="11.0.0" />
+		<PackageReference Include="Umbraco.Cms.Web.Website" Version="11.4.2" />
 		<PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="11.4.2" />
 	</ItemGroup>
 
